@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+    android:fromDegrees
+    Float. 旋转初始的角度。
+    android:toDegrees
+    Float. 旋转结束的角度。
+    android:pivotX
+    Float or percentage. 旋转中心点x坐标，表示形式有三种：
+    1 相对于自己的左边界的距离，单位像素值。（例如 "5"）
+    2 相对于自己的左边界的距离与自身宽度的百分比。（例如 "5%"）
+    3 相对于父View的左边界的距离与父View宽度的百分比。（例如 "5%p"）
+    android:pivotY
+    Float or percentage. 旋转中心点y坐标，表示形式有三种：
+    1 相对于自己的上边界的距离，单位像素值。（例如 "5"）
+    2 相对于自己的上边界的距离与自身宽度的百分比。（例如 "5%"）
+    3 相对于父View的上边界的距离与父View高度的百分比。（例如 "5%p"）
+    -->
+
+    <rotate
+        android:duration="1000"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="+360" />
+</set>

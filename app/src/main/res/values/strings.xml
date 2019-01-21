@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="str_btn_text_alpaha">加载透明度动画</string>
+    <string name="str_btn_text_rotate">加载旋转动画</string>
+    <string name="str_btn_text_scale">加载缩放动画</string>
+    <string name="str_btn_text_translate">加载平移动画</string>
+    <string name="str_btn_text_set">加载复合动画</string>
+    <string name="str_btn_text_clear">清除动画</string>
+    <string name="str_btn_text_finish">finish</string>
+</resources>
